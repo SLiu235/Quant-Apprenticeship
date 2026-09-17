@@ -1,0 +1,10 @@
+{
+  "healthy": [],
+  "runbook": "Pause new orders; preserve evidence; reconcile; fix; rerun regression; explicitly authorize resume.",
+  "stale": [
+    "invalid_or_stale_quote"
+  ],
+  "unreconciled": [
+    "pnl_reconciliation_failure"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "data_artifact": "a68dbdb4a780d2fbec28c1d769cd12b7e192f35a8963ea57f7b8798fb38e0a98.json",
+  "model_artifact": "f0661fe99b3f50ad887be48f3bb9f4892f00e1f13ee6c1c7fcc6e97229066bc3.json",
+  "persisted_fills": 150,
+  "restart_matches": true,
+  "scope": "local fill replay and immutable artifacts; no live order recovery or broker reconciliation"
+}

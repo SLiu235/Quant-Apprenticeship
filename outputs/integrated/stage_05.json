@@ -1,0 +1,7 @@
+{
+  "scenario_portfolio_returns": {
+    "AAA_down_30pct": -0.00907777490027892,
+    "broad_down_10pct": -0.011053206056128332
+  },
+  "scope": "specified linear price shocks; cash unchanged; not VaR probabilities"
+}

@@ -1,0 +1,138 @@
+[
+  {
+    "n": 1,
+    "slug": "research_environment",
+    "title": "A trustworthy research run",
+    "lessons": [
+      "01_research_contract",
+      "19_research_software",
+      "22_capstone_protocol"
+    ],
+    "code": [
+      "core",
+      "run"
+    ]
+  },
+  {
+    "n": 2,
+    "slug": "point_in_time_data",
+    "title": "Point-in-time data and feature pipeline",
+    "lessons": [
+      "02_availability",
+      "06_sessions",
+      "07_data_pipeline"
+    ],
+    "code": [
+      "data"
+    ]
+  },
+  {
+    "n": 3,
+    "slug": "signal_research",
+    "title": "Signal research and validation",
+    "lessons": [
+      "03_scoring",
+      "08_baseline",
+      "09_validation",
+      "13_time_series_ai",
+      "23_replication_review"
+    ],
+    "code": [
+      "research"
+    ]
+  },
+  {
+    "n": 4,
+    "slug": "portfolio_construction",
+    "title": "Portfolio construction under uncertain inputs",
+    "lessons": [
+      "14_risk_forecasts",
+      "15_portfolios"
+    ],
+    "code": [
+      "portfolio",
+      "risk"
+    ]
+  },
+  {
+    "n": 5,
+    "slug": "risk_attribution",
+    "title": "Risk, scenarios and P&L attribution",
+    "lessons": [
+      "04_instruments",
+      "14_risk_forecasts",
+      "15_portfolios"
+    ],
+    "code": [
+      "risk",
+      "execution"
+    ]
+  },
+  {
+    "n": 6,
+    "slug": "execution_microstructure",
+    "title": "Transaction costs and execution simulation",
+    "lessons": [
+      "04_instruments",
+      "05_execution",
+      "06_sessions"
+    ],
+    "code": [
+      "execution"
+    ]
+  },
+  {
+    "n": 7,
+    "slug": "production_pipelines",
+    "title": "Production data and model pipelines",
+    "lessons": [
+      "19_research_software",
+      "20_compute",
+      "21_operations"
+    ],
+    "code": [
+      "pipeline",
+      "run"
+    ]
+  },
+  {
+    "n": 8,
+    "slug": "ai_research_copilot",
+    "title": "AI research assistant and knowledge system",
+    "lessons": [
+      "10_text_features",
+      "11_llm_systems",
+      "12_graphs_causality"
+    ],
+    "code": [
+      "copilot"
+    ]
+  },
+  {
+    "n": 9,
+    "slug": "monitoring_observability",
+    "title": "Monitoring, drift and incident response",
+    "lessons": [
+      "20_compute",
+      "21_operations",
+      "23_replication_review"
+    ],
+    "code": [
+      "monitoring"
+    ]
+  },
+  {
+    "n": 10,
+    "slug": "integrated_paper_system",
+    "title": "Integrated paper portfolio and investment committee",
+    "lessons": [
+      "21_operations",
+      "22_capstone_protocol",
+      "23_replication_review",
+      "24_research_career"
+    ],
+    "code": [
+      "run"
+    ]
+  }
+]

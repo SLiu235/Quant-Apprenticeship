@@ -1,0 +1,21 @@
+test_conflicting_duplicate_and_nonfinite_quote (test_research.ExecutionTests.test_conflicting_duplicate_and_nonfinite_quote) ... ok
+test_duplicate_fill_and_halt_reconciliation (test_research.ExecutionTests.test_duplicate_fill_and_halt_reconciliation) ... ok
+test_journal_replay_idempotence_and_corruption (test_research.ExecutionTests.test_journal_replay_idempotence_and_corruption) ... ok
+test_overfill_no_financial_mutation (test_research.ExecutionTests.test_overfill_no_financial_mutation) ... ok
+test_queue_conservation_and_shortfall (test_research.ExecutionTests.test_queue_conservation_and_shortfall) ... ok
+test_hand_scores_and_class_order (test_research.StatisticalTests.test_hand_scores_and_class_order) ... ok
+test_importance_support (test_research.StatisticalTests.test_importance_support) ... ok
+test_independent_real_metrics (test_research.StatisticalTests.test_independent_real_metrics) ... ok
+test_irl_derivative_and_invariance (test_research.StatisticalTests.test_irl_derivative_and_invariance) ... ok
+test_mlp_gradient_and_checkpoint (test_research.StatisticalTests.test_mlp_gradient_and_checkpoint) ... ok
+test_ridge_future_invariance (test_research.StatisticalTests.test_ridge_future_invariance) ... ok
+test_risk_constraints_and_feasible_comparator (test_research.StatisticalTests.test_risk_constraints_and_feasible_comparator) ... ok
+test_graph_unknown_not_zero (test_research.TemporalTests.test_graph_unknown_not_zero) ... ok
+test_purge_boundary_and_arrival (test_research.TemporalTests.test_purge_boundary_and_arrival) ... ok
+test_text_clock_and_grounding (test_research.TemporalTests.test_text_clock_and_grounding) ... ok
+test_version_asof (test_research.TemporalTests.test_version_asof) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.226s
+
+OK

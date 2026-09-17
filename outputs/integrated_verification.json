@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-13",
+  "runtime_python": "3.14.6",
+  "learner_assessed": false,
+  "checks": {
+    "integrated_stages_executed": 10,
+    "existing_worked_projects_executed": 8,
+    "unittest_tests_passed": 36,
+    "new_integrated_tests": 20,
+    "new_documents_link_checked": 49,
+    "broken_local_links": 0
+  },
+  "commands": [
+    "python3 -m apprentice_system.run --stage 10 --output outputs/integrated",
+    "../QuantTimeLearn/.venv/bin/python -m reference.run --project all --output outputs/legacy_check",
+    "../QuantTimeLearn/.venv/bin/python -m unittest discover -s tests -v"
+  ],
+  "source_sha256": {
+    "apprentice_system/__init__.py": "b4f335fd111b19251d3e416622c7972257fe880fbf6d81e8d233cfaf5149b55c",
+    "apprentice_system/copilot.py": "a6e807d6511e1b190b0339d3863e5da8f3ca424e931d739cd92e7707faeccd97",
+    "apprentice_system/core.py": "83b53c7cd94051d37671f6b772a972cd7228009b35870e40f854f4d8cce06d60",
+    "apprentice_system/data.py": "4e57401c7245fe247e36226c0d982216831fc2d426ca023dafdc9196ec267c39",
+    "apprentice_system/execution.py": "3b38ef2ba23a3e296ed712995daf1dc6bc7992f7ee86ccbb7379432b4f65ca58",
+    "apprentice_system/monitoring.py": "cd4c08e186ad18b08561a679ee647770626a5ce69749c23e90e60209e12a27f2",
+    "apprentice_system/pipeline.py": "f256c8f4368c79a0e3eaae2d0c237d3864f493cdcc7b2588d2a52c69ae1338f6",
+    "apprentice_system/portfolio.py": "984ea699ffae06a90343eb0da1a0b74c212d5c3a4068c24ee946c5644f934f47",
+    "apprentice_system/research.py": "0d5406a82cb5158a4577f2c75824c111485f83d43c57fd0b7b5b5078fb6b00c9",
+    "apprentice_system/risk.py": "d1cc277e16f4cb44d325201625a498d3d434767d33d57ade4eff8ab6d1e50c12",
+    "apprentice_system/run.py": "1dd236a81929b7583ee9bfcda263dc41abe69273d5af0cef12521fd3677fad37"
+  },
+  "scope": "Software/package verification. Synthetic integrated reference. No claim of learner competence, empirical investability, live LLM evaluation or broker operation.",
+  "archive_scope": "Written pack, code, templates and saved outputs. Excludes submissions, caches, third-party environments and sibling empirical source datasets."
+}

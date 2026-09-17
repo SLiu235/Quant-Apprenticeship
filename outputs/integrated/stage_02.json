@@ -1,0 +1,28 @@
+{
+  "cutoff": "2025-01-08T15:55:00+00:00",
+  "data_kind": "synthetic; weekday calendar is NOT an exchange calendar",
+  "features": {
+    "AAA": {
+      "available_at": "2025-01-07T17:05:00+00:00",
+      "price": 80.28370178380776,
+      "source_event": "2025-01-07T17:00:00+00:00",
+      "version": 1,
+      "x": 0.0028329883811208934
+    },
+    "BBB": {
+      "available_at": "2025-01-07T17:05:00+00:00",
+      "price": 99.536050898415,
+      "source_event": "2025-01-07T17:00:00+00:00",
+      "version": 1,
+      "x": 0.0018180021547151703
+    },
+    "CCC": {
+      "available_at": "2025-01-07T17:05:00+00:00",
+      "price": 121.1470911719139,
+      "source_event": "2025-01-07T17:00:00+00:00",
+      "version": 1,
+      "x": 0.007675290018911207
+    }
+  },
+  "rows": 180
+}

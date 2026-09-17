@@ -1,0 +1,55 @@
+{
+  "data_kind": "synthetic text/cached responses; paired forecast losses real",
+  "eligible_ids": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "f"
+  ],
+  "future_excluded": [
+    "e"
+  ],
+  "schema_and_evidence_valid": 4,
+  "eligible": 5,
+  "nonabstaining_valid": 3,
+  "accepted_accuracy": 0.6666666666666666,
+  "coverage": 0.6,
+  "rejected_evidence_ids": [
+    "f"
+  ],
+  "semantic_error_ids": [
+    "a"
+  ],
+  "hypothetical_1000_call_dollars": 0.24,
+  "real_incremental_test": {
+    "comparison": "public minus market NLL; negative favors public",
+    "date_mean": 0.014649936286815102,
+    "dates": 52,
+    "date_range": [
+      "2025-12-11",
+      "2026-02-27"
+    ],
+    "ci95_by_block": {
+      "1": [
+        0.005480927439796363,
+        0.025041032761096756
+      ],
+      "3": [
+        0.0064225027336277385,
+        0.02457989876926054
+      ],
+      "5": [
+        0.005602350976672805,
+        0.026658069232044966
+      ],
+      "10": [
+        0.0038188209491077088,
+        0.028581248458912235
+      ]
+    },
+    "row_mean": 0.016796812207407807
+  },
+  "interpretation": "Substring evidence does not guarantee faithful interpretation. Fixture accuracy is not a production estimate.",
+  "runtime_python": "3.14.6"
+}

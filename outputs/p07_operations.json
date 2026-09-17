@@ -1,0 +1,31 @@
+{
+  "data_kind": "synthetic operational events; real local CPU timing",
+  "events": [
+    "accepted",
+    "applied",
+    "duplicate_ignored",
+    "stale_quote_halt",
+    "applied",
+    "False",
+    "True"
+  ],
+  "cash": 5999.0,
+  "shares": 40,
+  "halted": false,
+  "equity_at_100_02": 9999.8,
+  "cpu": "arm",
+  "numpy": "2.5.1",
+  "max_abs_difference": 3.552713678800501e-15,
+  "loop": {
+    "median_seconds": 0.012176458956673741,
+    "min_seconds": 0.012042165966704488,
+    "repetitions": 7
+  },
+  "vectorized": {
+    "median_seconds": 1.5625031664967537e-05,
+    "min_seconds": 9.999959729611874e-06,
+    "repetitions": 7
+  },
+  "limits": "No broker, persistent journal, sell handling or GPU measurement; timing is host/thread specific.",
+  "runtime_python": "3.14.6"
+}

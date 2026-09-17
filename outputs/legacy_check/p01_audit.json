@@ -1,0 +1,65 @@
+{
+  "data_kind": "real saved predictions; inspected evaluation",
+  "source_sha256": "51bdac08e092e413e9e6b679f664557880406df4c3e1627c47eddf87a12275be",
+  "metrics": {
+    "frequency": {
+      "nll": 0.9456655789850591,
+      "brier": 0.5823619581843175,
+      "accuracy": 0.4676258992805755,
+      "rows": 139
+    },
+    "graph": {
+      "nll": 0.9867374808903068,
+      "brier": 0.6126886070085062,
+      "accuracy": 0.4028776978417266,
+      "rows": 139
+    },
+    "market": {
+      "nll": 0.960576256105648,
+      "brier": 0.5950663835149476,
+      "accuracy": 0.4676258992805755,
+      "rows": 139
+    },
+    "public": {
+      "nll": 0.9773730683130558,
+      "brier": 0.6049634191986837,
+      "accuracy": 0.37410071942446044,
+      "rows": 139
+    }
+  },
+  "primary": {
+    "comparison": "public minus market NLL; negative favors public",
+    "date_mean": 0.014649936286815102,
+    "dates": 52,
+    "date_range": [
+      "2025-12-11",
+      "2026-02-27"
+    ],
+    "ci95_by_block": {
+      "1": [
+        0.005480927439796363,
+        0.025041032761096756
+      ],
+      "3": [
+        0.0064225027336277385,
+        0.02457989876926054
+      ],
+      "5": [
+        0.005602350976672805,
+        0.026658069232044966
+      ],
+      "10": [
+        0.0038188209491077088,
+        0.028581248458912235
+      ]
+    },
+    "row_mean": 0.016796812207407807
+  },
+  "limits": [
+    "Selected issuer-days, not Nasdaq population",
+    "Assumed latency, missing receipt/edit clock",
+    "Comment sampling depends on eventual engagement",
+    "No participant IRL or tradable PnL"
+  ],
+  "runtime_python": "3.14.6"
+}

@@ -1,0 +1,28 @@
+{
+  "cash_weight": 0.8894679394387167,
+  "orders": [
+    {
+      "decision_price": 74.78556149941454,
+      "order_id": "demo:AAA",
+      "quantity": 40,
+      "symbol": "AAA"
+    },
+    {
+      "decision_price": 109.68477061798701,
+      "order_id": "demo:BBB",
+      "quantity": 22,
+      "symbol": "BBB"
+    },
+    {
+      "decision_price": 123.7319747308486,
+      "order_id": "demo:CCC",
+      "quantity": 44,
+      "symbol": "CCC"
+    }
+  ],
+  "target": {
+    "AAA": 0.030259249667596397,
+    "BBB": 0.02485724604514556,
+    "CCC": 0.05541556484854135
+  }
+}

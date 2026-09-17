@@ -1,0 +1,25 @@
+{
+  "decision": "Do not infer investability from synthetic data. Continue to independently validated empirical research.",
+  "forecast_evaluation": {
+    "interpretation": "synthetic software evidence; dependent rows; no significance or alpha claim",
+    "mse": {
+      "linear": 5.3726164012658645e-05,
+      "persistence": 8.360355242082864e-05,
+      "zero": 5.326326908342313e-05
+    },
+    "rows": 165,
+    "uncertainty": "residual RMSE is descriptive scale, not calibrated predictive confidence"
+  },
+  "limitations": [
+    "stipulated spread/impact, no calibration",
+    "IOC participation cap uses realized interval volume in simulator",
+    "no passive queue, short borrow, dividends, financing or exchange calendar",
+    "end inventory marked, not liquidated; no terminal liquidation costs",
+    "regression horizon is intraday; carried inventory adds overnight exposure"
+  ],
+  "max_accounting_residual": 4.249489649055249e-11,
+  "max_drawdown": -0.0032049961620506107,
+  "net_pnl": 229.15499289262516,
+  "run_id": "af86d2ef275b4e4fdbc4f70c94d32fd384a9740122d64bae867be353ca5d605c",
+  "sessions": 55
+}

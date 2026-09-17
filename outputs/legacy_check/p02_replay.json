@@ -1,0 +1,29 @@
+{
+  "data_kind": "synthetic, stipulated FIFO and sufficient ask",
+  "tape": [
+    {
+      "sequence": 1,
+      "trade_at_bid": 25,
+      "own_fill": 0,
+      "ahead": 15,
+      "remaining": 40
+    },
+    {
+      "sequence": 2,
+      "trade_at_bid": 30,
+      "own_fill": 15,
+      "ahead": 0,
+      "remaining": 25
+    }
+  ],
+  "passive_filled": 15,
+  "passive_cancelled": 25,
+  "aggressive_filled": 25,
+  "total_shares": 40,
+  "vwap": 100.025,
+  "fee_dollars": 0.16,
+  "shortfall_dollars": 0.36000000000012733,
+  "shortfall_bps": 0.8998200359931198,
+  "limitations": "No hidden liquidity, replenishment, cancel race or endogenous impact; not exchange fill model",
+  "runtime_python": "3.14.6"
+}

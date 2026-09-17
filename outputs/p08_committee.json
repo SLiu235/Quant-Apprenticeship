@@ -1,0 +1,40 @@
+{
+  "data_kind": "real saved result; decision exercise",
+  "question": "Does frozen public text improve response probabilities over the market feature on eligible issuer-days?",
+  "estimand": "Equal-weight date mean paired public-minus-market NLL",
+  "evidence": {
+    "comparison": "public minus market NLL; negative favors public",
+    "date_mean": 0.014649936286815102,
+    "dates": 52,
+    "date_range": [
+      "2025-12-11",
+      "2026-02-27"
+    ],
+    "ci95_by_block": {
+      "1": [
+        0.005480927439796363,
+        0.025041032761096756
+      ],
+      "3": [
+        0.0064225027336277385,
+        0.02457989876926054
+      ],
+      "5": [
+        0.005602350976672805,
+        0.026658069232044966
+      ],
+      "10": [
+        0.0038188209491077088,
+        0.028581248458912235
+      ]
+    },
+    "row_mean": 0.016796812207407807
+  },
+  "decision": "Do not promote this text model; retain negative exploratory result",
+  "reason": "Primary difference positive; selection and timestamp gaps further restrict inference",
+  "economic_claim": "None: no observed fills or calibrated payoff/cost model",
+  "irl_claim": "None: actor state, actions and mandates unobserved",
+  "next_experiment": "Prospectively freeze an independently acquired social/price availability panel and evaluate uninspected dates",
+  "stop_rule": "Stop if receipt history, license or sampling cannot support claim; ordinary-session bars cannot substitute for overnight observations",
+  "runtime_python": "3.14.6"
+}

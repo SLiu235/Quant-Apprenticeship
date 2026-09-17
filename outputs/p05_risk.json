@@ -1,0 +1,27 @@
+{
+  "data_kind": "real intraday returns; retrospective selected universe",
+  "dates": 334,
+  "range": [
+    "2025-05-12",
+    "2026-09-09"
+  ],
+  "qlike_rolling20": -5.908650801783551,
+  "qlike_previous_squared": 12516.064291675231,
+  "qlike_ewma94": -5.895775968672356,
+  "realized_to_forecast_second_moment": 1.008087008130589,
+  "mean_gross_minvar_bps": 21.873081999191278,
+  "mean_gross_equal_bps": 37.0189139806107,
+  "minvar_realized_std_bps": 221.16272088841566,
+  "equal_realized_std_bps": 298.5655316525658,
+  "mean_predicted_portfolio_variance": 0.0003653885411546923,
+  "last_weights": [
+    0.5,
+    0.2668058948352226,
+    0.0013129513331559526,
+    0.23188115383162133
+  ],
+  "last_covariance_condition": 16.570115762576705,
+  "net_mean_at_5bps_one_way": 11.873081999191278,
+  "limits": "QLIKE targets second moments with mean-zero approximation; centered portfolio covariance. Flat-to-flat turnover=2; no impact model.",
+  "runtime_python": "3.14.6"
+}

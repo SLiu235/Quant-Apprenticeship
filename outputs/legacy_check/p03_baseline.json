@@ -1,0 +1,68 @@
+{
+  "data_kind": "real bars; selected four issuers; inspected teaching evaluation",
+  "sources": {
+    "ASML": {
+      "path": "BehaviorIRL/real_data/recent_prices/ASML.json",
+      "sha256": "1748db1b23414f707681745c0eceb4dbec122a406b4af7106f0716d3817637ba"
+    },
+    "MU": {
+      "path": "BehaviorIRL/real_data/recent_prices/MU.json",
+      "sha256": "159f065983d929f6bd8bcf08a060558839e11309233e346a725de8877299c9ef"
+    },
+    "SNDK": {
+      "path": "BehaviorIRL/real_data/recent_prices/SNDK.json",
+      "sha256": "545789e1538dbb884daf49a2df46d5a3424e57a2764a5baef6466babf3ba5551"
+    },
+    "WDC": {
+      "path": "BehaviorIRL/real_data/recent_prices/WDC.json",
+      "sha256": "748769135d52612667a433434cb6a430a98b9e867583e3c80909744e7d81d39f"
+    }
+  },
+  "common_dates": 394,
+  "test_dates": 75,
+  "test_range": [
+    "2026-05-22",
+    "2026-09-09"
+  ],
+  "chosen_penalty": 0.01,
+  "validation_mse": {
+    "0.01": 0.0014145123966550048,
+    "0.1": 0.0014153846912363724,
+    "1.0": 0.001423892006640338
+  },
+  "refits": [
+    {
+      "decision_date": "2026-05-22",
+      "last_label_date": "2026-05-21",
+      "training_dates": 299
+    },
+    {
+      "decision_date": "2026-06-23",
+      "last_label_date": "2026-06-22",
+      "training_dates": 319
+    },
+    {
+      "decision_date": "2026-07-22",
+      "last_label_date": "2026-07-21",
+      "training_dates": 339
+    },
+    {
+      "decision_date": "2026-08-19",
+      "last_label_date": "2026-08-18",
+      "training_dates": 359
+    }
+  ],
+  "mse_model": 0.0017434221527116741,
+  "mse_zero": 0.0017079531149575377,
+  "mean_gross_bps_per_day": -3.935349730478132,
+  "mean_net_bps_by_one_way_cost": {
+    "0": -3.935349730478132,
+    "5": -13.93534973047814,
+    "10": -23.93534973047815,
+    "25": -53.93534973047815
+  },
+  "mean_turnover": 2.0,
+  "break_even_one_way_bps": -1.967674865239066,
+  "execution_status": "Open/close marks assumed; no guaranteed fills, borrow, impact or financing; not executable performance",
+  "runtime_python": "3.14.6"
+}

@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-09-11T05:37:00.193371+00:00",
+  "python": "3.14.6",
+  "numpy": "2.5.1",
+  "scipy": "1.18.0",
+  "lessons": 24,
+  "answer_keys": 24,
+  "matched_assignments": 72,
+  "worked_projects_executed": 8,
+  "unit_tests_passed": 16,
+  "local_links_checked": 156,
+  "deterministic_outputs_match": true,
+  "timing_fields_excluded_from_exact_comparison": true,
+  "source_hashes": {
+    "BehaviorIRL/results/reddit_recent_2026/predictions.csv": "51bdac08e092e413e9e6b679f664557880406df4c3e1627c47eddf87a12275be",
+    "BehaviorIRL/behavior_irl/mdp.py": "25a298f4bec954e508809a7d6febed2b6779b73204e466aefc28c8f8bae5fb7b",
+    "BehaviorIRL/behavior_irl/models.py": "493797cb835f3a0824c53de87740c889484856ff3044a2a2ed55f401311ca97d",
+    "BehaviorIRL/real_data/recent_prices/ASML.json": "1748db1b23414f707681745c0eceb4dbec122a406b4af7106f0716d3817637ba",
+    "BehaviorIRL/real_data/recent_prices/MU.json": "159f065983d929f6bd8bcf08a060558839e11309233e346a725de8877299c9ef",
+    "BehaviorIRL/real_data/recent_prices/SNDK.json": "545789e1538dbb884daf49a2df46d5a3424e57a2764a5baef6466babf3ba5551",
+    "BehaviorIRL/real_data/recent_prices/WDC.json": "748769135d52612667a433434cb6a430a98b9e867583e3c80909744e7d81d39f",
+    "BehaviorIRL/real_data/recent_prices/manifest.json": "6d1797173b5aeeb0b61346d1f40a6f5a8d186a8e5e3d96469ec8d4c82891e164"
+  },
+  "code_hashes": {
+    "reference/__init__.py": "88d55b4c105ec75ac7567112de4b149931a84c063612c89af9b539e226c5dc6d",
+    "reference/common.py": "33aded6ec52944738f5a6fe04713c0aaf36df155ad85675b1fb4e696be73728e",
+    "reference/p01_audit.py": "f778f93b3597707117ed80770fec27adf5e1720d4b044c7e1c62d9f43d6c29b6",
+    "reference/p02_replay.py": "bd42e5f80fd8150d34b07108a94d81e073f31669516fd934ad29800f5c987bed",
+    "reference/p03_baseline.py": "bf391fe61cb703563b21a79226e6e24256725d7ef38a184ce15fc5afd120c800",
+    "reference/p04_text.py": "d14dc32ea4653c9e3a7243512862eef9c3270542b63f4fd30b33e21c1b38e41b",
+    "reference/p05_risk.py": "387e8df763d95de135b7cbe133ee34b3bb234b3219c79d35d3ee60eeeb867c48",
+    "reference/p06_irl.py": "f32063f73c4cb899331c421603ecc81a8c069e37f001bfaa87bbb752dc3fc9ea",
+    "reference/p07_operations.py": "c85182e75c01de16ab35c178364b437ac618dd06ecae10c98b2700adbf24b83a",
+    "reference/p08_committee.py": "64899a547263a7614f173fcd3fc6843fa5205dac1c9b2cf75adc856e9ef7ef21",
+    "reference/run.py": "f1bb7b0f708a9b49efffb2cb93a27157e6da0cbf0d98b5ee8dccbf682467a5a0",
+    "reference/solutions.py": "4ea16b927733eafd7b183e2334b7401bfcb2203d5dc7d0e89ce7828b1e023431",
+    "reference/verify.py": "fceb665ffdef43ae89b70cb7eed5558c2187d5fe4cf2be252dee1832646009df",
+    "tests/test_research.py": "c4d9981bde1acc870b2998edcbda9502464214b0d66519c2925efda7a7191570"
+  },
+  "scope": "Offline local references; no new social feed, live LLM, GPU or brokerage execution. Automated structure/link checks supplement the documented editorial review; they do not certify pedagogy or market validity."
+}

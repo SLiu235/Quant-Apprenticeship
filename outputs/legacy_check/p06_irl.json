@@ -1,0 +1,29 @@
+{
+  "frequency_test_nll": 1.0831150197565258,
+  "behavior_cloning_test_nll": 0.8351551035063804,
+  "estimated_dynamics_irl_test_nll": 0.8241059622313275,
+  "active_test_decisions": 481,
+  "data_kind": "synthetic known-MDP, no observed investor actions",
+  "train_episodes": 180,
+  "test_episodes": 80,
+  "true_theta": [
+    1.0,
+    0.12,
+    0.65,
+    1.4
+  ],
+  "estimated_theta": [
+    1.0,
+    0.1197357837514518,
+    0.6808282277236906,
+    1.6118794529901996
+  ],
+  "test_nll_fit": 0.7688691958297613,
+  "test_nll_oracle": 0.7682669894645214,
+  "reward_temperature_scale_max_probability_error": 1.9984014443252818e-15,
+  "gradient_max_abs_error": 7.895319953377111e-10,
+  "shift_nll_stale_policy": 0.8167664945314143,
+  "shift_nll_replanned_known_dynamics": 0.7592348522140466,
+  "limits": "Fixed cost scale and temperature; oracle dynamics/reward family. Replanning assumes changed dynamics known.",
+  "runtime_python": "3.14.6"
+}

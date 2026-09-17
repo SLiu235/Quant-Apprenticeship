@@ -1,0 +1,20 @@
+{
+  "abstention": {
+    "citations": [],
+    "reason": "no lexical evidence",
+    "status": "abstain"
+  },
+  "answer": {
+    "available_at": "2025-01-01T00:00:00+00:00",
+    "citations": [
+      "execution-policy"
+    ],
+    "quote": "Execution costs include spread, stipulated impact and fees. Unfilled quantities are cancelled.",
+    "scope": "retrieved text, not an inferred answer or trade instruction",
+    "status": "evidence"
+  },
+  "baseline": "deterministic lexical retrieval; no model calls",
+  "evidence_check": true,
+  "fabricated_quote_rejected": true,
+  "limits": "citation matching does not establish semantic truth or retrieval completeness"
+}

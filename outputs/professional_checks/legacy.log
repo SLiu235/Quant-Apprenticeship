@@ -1,0 +1,8 @@
+p01_audit: outputs/legacy_check/p01_audit.json
+p02_replay: outputs/legacy_check/p02_replay.json
+p03_baseline: outputs/legacy_check/p03_baseline.json
+p04_text: outputs/legacy_check/p04_text.json
+p05_risk: outputs/legacy_check/p05_risk.json
+p06_irl: outputs/legacy_check/p06_irl.json
+p07_operations: outputs/legacy_check/p07_operations.json
+p08_committee: outputs/legacy_check/p08_committee.json
